@@ -1,0 +1,46 @@
+3 wires
+
+Cond. 1     | Cond. 2         | Cut
+------------+-----------------+--------
+No red      |                 | 2nd
+Last white  |                 | last
+>1 blue     |                 | last BLUE
+------------------------------+--------
+Else                          | last
+
+
+
+4 wires
+
+Cond. 1     | Cond. 2         | Cut
+------------+-----------------+--------
+>1 red      | last digit odd  | last RED 
+Last yellow | no red          | 1st 
+1 blue      |                 | 1st 
+>1 yellow   |                 | last
+------------------------------+--------
+Else                          | 2nd 
+
+
+
+5 wires
+
+Cond. 1     | Cond. 2         | Cut
+------------+-----------------+--------
+Last black  | last digit odd  | 4th 
+1 red       | >1 yellow       | 1st 
+No black    |                 | 2nd 
+------------------------------+--------
+Else                          | 1st 
+
+
+
+6 wires
+
+Cond. 1     | Cond. 2         | Cut
+------------+-----------------+--------
+No yellow   | last digit odd  | 3rd
+1 yellow    | >1 white        | 4th
+No red      |                 | last 
+------------------------------+--------
+Else                          | 4th 
