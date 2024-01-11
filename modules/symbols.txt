@@ -1,0 +1,14 @@
+Symbol         | Column
+---------------+--------
+3              |   5
+ae             |   6
+AT / Pyramide  |   1
+Bliksemschicht |   1
+C met punt     |   5
+Copyright      |   3
+Dichte ster    |   5
+Halve R        |   3
+Ohm            |   6
+Puzzelstukje   |   6
+Schuine H      |   6
+W met komma    |   3
