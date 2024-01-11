@@ -1,10 +1,17 @@
-OOXOXX XXXXOX       Up
-XOXOXO OXXOXX       Up
+RIGHT
+    ...X..
+    ......
 
-OXXOOX XXXXOX       Down
-XOXOXO OXOOOX       Down
+LEFT
+    ....X.
+    ......
 
-OOOOXO ......       Left
+UP
+    ....XX
+    ......
+        
+    ......
+    ....XX
 
-...... XXXOXO       Right
-...... XXXOXO       Right
+DOWN
+If none of the above apply, then set the knob to the down position.
