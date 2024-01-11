@@ -1,0 +1,10 @@
+OOXOXX XXXXOX       Up
+XOXOXO OXXOXX       Up
+
+OXXOOX XXXXOX       Down
+XOXOXO OXOOOX       Down
+
+OOOOXO ......       Left
+
+...... XXXOXO       Right
+...... XXXOXO       Right
