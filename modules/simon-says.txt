@@ -1,0 +1,15 @@
+Always do this one first!
+
+
+Klinker (AEIOU)
+Red     Blue
+Blue    Red
+Green   Yellow
+Yellow  Green
+
+
+Medeklinker:
+Red     Blue
+Blue    Yellow
+Green   Green
+Yellow  Red
