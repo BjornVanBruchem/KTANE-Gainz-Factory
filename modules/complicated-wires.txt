@@ -1,0 +1,20 @@
+Altijd:
+- Wit
+- Wit met Ster
+- Rood met Ster
+
+Parallel Port:
+- Blauw met Lamp
+- Blauw met Lamp en Ster
+- Blauw-Rood met Ster
+
+Serienummer eindigt met even getal:
+- Blauw
+- Blauw-Rood
+- Blauw-Rood met Lamp
+- Rood
+
+2 of meer Batterijen:
+- Rood met Lamp
+- Rood met Lamp en Ster
+- Wit met Lamp en Ster
