@@ -1,0 +1,17 @@
+Cond. 1     | Cond. 2         | Action
+------------+-----------------+--------
+Blue        | "Abort"         | Hold
+>1 battery  | "Detonate"      | Release
+White       | Lit CAR         | Hold
+>2 battery  | Lit FRK         | Release
+Yellow      |                 | Hold
+Red         | "Hold"          | Release
+------------------------------+--------
+Else                          | Hold
+
+
+Strip   | Timer
+--------+------
+Any     | 1
+Blue    | 4
+Yellow  | 5
