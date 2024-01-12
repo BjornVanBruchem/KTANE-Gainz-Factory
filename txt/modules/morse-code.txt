@@ -1,0 +1,26 @@
+FIRST LETTER
+_ = 3.532
+_... = next
+._.. = 3.542
+.._. = 3.555
+..._ = 3.595
+.... = 3.515
+... = next
+
+SECOND LETTER
+. = 3.600
+.. = 3.552
+._. = next
+._.. = 3.522
+.... = 3.505
+_ = next
+_ _ _ = next
+
+THIRD LETTER
+. = 3.582 IF STARTING WITH S
+. = 3.572 IF STARTING WITH B
+.. = 3.575 IF STARTING WITH B
+.. = 3.592 IF STARTING WITH S
+.-. = 3.545
+_ _ = 3.565
+_.._ = 3.535
