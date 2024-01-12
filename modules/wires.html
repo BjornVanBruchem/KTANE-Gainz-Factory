@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>KTaNE Gainz Factory</title>
+
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <script src="../node_modules/jquery/dist/jquery.min.js" defer></script>
+    <script src="../node_modules/popper.js/dist/umd/popper.min.js" defer></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js" defer></script>
+</head>
+
+<body>
+    <div class="m-2">
+        <h1 class="text-center">KTaNE, simple doc</h1>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="modules/wires.html">Wires</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="modules/button.html">Button</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="modules/symbols.html">Symbols</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="modules/words.html">Words</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="modules/memory.html">Memory</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="modules/morse.html">Morse</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="modules/complex_wires.html">Complex wires</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="modules/abc_wires.html">ABC wires</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="modules/maze.html">Maze</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="modules/password.html">Password</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="modules/needy_up.html">Up (needy)</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <hr>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>3 wires</h2>
+                </div>
+                <div class="col">
+                    <h2>4 wires</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <table class="table">
+                        <tr>
+                            <th>Condition 1</th>
+                            <th>Condition 2</th>
+                            <th>Wire</th>
+                        </tr>
+                        <tr>
+                            <td>No RED</td>
+                            <td></td>
+                            <td>2nd</td>
+                        </tr>
+                        <tr>
+                            <td>Last is WHITE</td>
+                            <td></td>
+                            <td>Last</td>
+                        </tr>
+                        <tr>
+                            <td>>1 blue</td>
+                            <td></td>
+                            <td>Last BLUE</td>
+                        </tr>
+                        <tr class="fw-bold">
+                            <td>Else</td>
+                            <td></td>
+                            <td>Last</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col">
+                    <table class="table">
+                        <tr>
+                            <th>Condition 1</th>
+                            <th>Condition 2</th>
+                            <th>Wire</th>
+                        </tr>
+                        <tr>
+                            <td>>1 RED</td>
+                            <td>Last digit odd</td>
+                            <td>1 BLUE</td>
+                        </tr>
+                        <tr>
+                            <td>Last is YELLOW</td>
+                            <td>No RED</td>
+                            <td>1st</td>
+                        </tr>
+                        <tr>
+                            <td>1 BLUE</td>
+                            <td></td>
+                            <td>1st</td>
+                        </tr>
+                        <tr>
+                            <td>>1 YELLOW</td>
+                            <td></td>
+                            <td>Last</td>
+                        </tr>
+                        <tr class="fw-bold">
+                            <td>Else</td>
+                            <td></td>
+                            <td>2nd</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h2>5 wires</h2>
+                </div>
+                <div class="col">
+                    <h2>6 wires</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <table class="table">
+                        <tr>
+                            <th>Condition 1</th>
+                            <th>Condition 2</th>
+                            <th>Wire</th>
+                        </tr>
+                        <tr>
+                            <td>Last is BLACK</td>
+                            <td>Last digit odd</td>
+                            <td>4th</td>
+                        </tr>
+                        <tr>
+                            <td>1 RED</td>
+                            <td>>1 YELLOW</td>
+                            <td>1st</td>
+                        </tr>
+                        <tr>
+                            <td>No BLACK</td>
+                            <td></td>
+                            <td>2nd</td>
+                        </tr>
+                        <tr class="fw-bold">
+                            <td>Else</td>
+                            <td></td>
+                            <td>1st</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col">
+                    <table class="table">
+                        <tr>
+                            <th>Condition 1</th>
+                            <th>Condition 2</th>
+                            <th>Wire</th>
+                        </tr>
+                        <tr>
+                            <td>No YELLOW</td>
+                            <td>Last digit odd</td>
+                            <td>3rd</td>
+                        </tr>
+                        <tr>
+                            <td>1 YELLOW</td>
+                            <td>>1 WHITE</td>
+                            <td>4th</td>
+                        </tr>
+                        <tr>
+                            <td>No RED</td>
+                            <td></td>
+                            <td>Last</td>
+                        </tr>
+                        <tr class="fw-bold">
+                            <td>Else</td>
+                            <td></td>
+                            <td>4th</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
