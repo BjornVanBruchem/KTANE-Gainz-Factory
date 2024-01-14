@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>KTaNE Gainz Factory</title>
+
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <script src="../node_modules/jquery/dist/jquery.min.js" defer></script>
+    <script src="../node_modules/popper.js/dist/umd/popper.min.js" defer></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js" defer></script>
+
+    <script src="../js/memory.js" defer></script>
+</head>
+
+<body>
+    <div class="m-2">
+        <h1 class="text-center">KTaNE, simple doc</h1>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="wires.html">Wires</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="button.html">Button</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="symbols.html">Symbols</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="simon_says.html">Simon Says</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="words.html">Words</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="memory.html">Memory</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="morse.html">Morse</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="complex_wires.html">Complex wires</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="abc_wires.html">ABC wires</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="maze.html">Maze</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="password.html">Password</a>
+                    </li>
+                </ul>
+                <div class="vr"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="needy_up.html">Up (needy)</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <hr>
+
+        <div class="container">
+            <div>
+                <div class="row mb-2">
+                    <div class="col">
+                        <p class="mb-1">Position stage 1:</p>
+                        <input type="number" id="pos_stage_1">
+                    </div>
+                    <div class="col">
+                        <p class="mb-1">Position stage 2:</p>
+                        <input type="number" id="pos_stage_2">
+                    </div>
+                    <div class="col">
+                        <p class="mb-1">Position stage 3:</p>
+                        <input type="number" id="pos_stage_3">
+                    </div>
+                    <div class="col">
+                        <p class="mb-1">Position stage 4:</p>
+                        <input type="number" id="pos_stage_4">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <p class="mb-1">Label stage 1:</p>
+                        <input type="number" id="lbl_stage_1">
+                    </div>
+                    <div class="col">
+                        <p class="mb-1">Label stage 2:</p>
+                        <input type="number" id="lbl_stage_2">
+                    </div>
+                    <div class="col">
+                        <p class="mb-1">Label stage 3:</p>
+                        <input type="number" id="lbl_stage_3">
+                    </div>
+                    <div class="col">
+                        <p class="mb-1">Label stage 4:</p>
+                        <input type="number" id="lbl_stage_4">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <h4>Stage 1</h4>
+                    <table class="table w-75">
+                        <tr>
+                            <th>Number</th>
+                            <th>Button</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Position 2</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Position 2</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Position 3</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Position 4</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="col-md-4">
+                    <h4>Stage 2</h4>
+                    <table class="table w-75">
+                        <tr>
+                            <th>Number</th>
+                            <th>Button</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Label "4"</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td class="txt_pos_stage_1">Position stage 1</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Position 1</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td class="txt_pos_stage_1">Position stage 1</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="col-md-4">
+                    <h4>Stage 3</h4>
+                    <table class="table w-75">
+                        <tr>
+                            <th>Number</th>
+                            <th>Button</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td class="txt_lbl_stage_2">Label stage 2</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td class="txt_lbl_stage_1">Label stage 1</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Position 3</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Label "4"</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+
+                <div class="col-md-4">
+                    <h4>Stage 4</h4>
+                    <table class="table w-75">
+                        <tr>
+                            <th>Number</th>
+                            <th>Button</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td class="txt_pos_stage_1">Position stage 1</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Position 1</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td class="txt_pos_stage_2">Position stage 2</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td class="txt_pos_stage_2">Position stage 2</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="col-md-4">
+                    <h4>Stage 5</h4>
+                    <table class="table w-75">
+                        <tr>
+                            <th>Number</th>
+                            <th>Button</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td class="txt_lbl_stage_1">Label stage 1</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td class="txt_lbl_stage_2">Label stage 2</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td class="txt_lbl_stage_4">Label stage 4</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td class="txt_lbl_stage_3">Label stage 3</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
